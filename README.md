@@ -1,19 +1,24 @@
 # Wordle-On-terminal-to-be-GUI-
 This is an advanced Wordle clone playable in the terminal and also features a PyQt5 GUI mode. It includes random word fetching, dictionary API validation, game stats (win/loss), high scores, difficulty levels, and a streak-based scoring system.
 
----
+# 🟩 Terence Eloundou's Wordle (Terminal + GUI)
 
-### ✅ What to Do Next
+A terminal-based Wordle game with an optional PyQt5 GUI. Features include word definitions, timed guesses, and progress tracking.
 
-1. **Create two files** in your project root:
-   - `LICENSE` – paste the license text above.
-   - `README.md` – paste the template above.
+## Features
+- 🧩 Terminal & GUI gameplay
+- ✅ Word validation via dictionary API
+- ⏳ Timed inputs in hard mode
+- 📈 Win/loss stats and streak tracking in CSV
+- 📚 Word definitions shown before guessing
+- 🎯 Three difficulty levels: easy, medium, hard
 
-2. Update or tweak any sections (e.g., add screenshots or logos).
+## Requirements
+- Python ≥ 3.7
+- `requests`, `PyQt5`
 
-3. Let me know if you want to:
-   - Automatically push to GitHub,  
-   - Create `requirements.txt`,  
-   - Add badges or images.
+Install dependencies:
+```bash
+pip install requests PyQt5
 
-Happy coding, Terence 😊
+
